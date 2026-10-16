@@ -1,0 +1,6 @@
+{
+  "name": "نظام الكاشير والإدارة المركزي لمحل الملابس | Cloths Store POS & ERP",
+  "description": "اخين AKHEN للأزياء والملابس - نظام كاشير وإدارة متكامل لنقاط البيع، المخزون، العملاء، الموظفين، والأقساط بالجنيه المصري.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
