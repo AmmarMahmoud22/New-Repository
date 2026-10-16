@@ -20,11 +20,13 @@ jobs:
 
       - name: Install Dependencies
         run: |
-          npm install react-is --force
+          npm install react-is recharts --save --force
           npm install --force --legacy-peer-deps
 
       - name: Build Executable
         run: npm run build
+        env:
+          ROLLDOWN_PASSTHROUGH_WARN: true
 
       - name: Upload Artifact
         uses: actions/upload-artifact@v4
